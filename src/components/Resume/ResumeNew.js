@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/nimarta-devi/portfolio/master/src/Assets/Nimarta - ML Engineer.pdf";
+  "https://raw.githubusercontent.com/nimarta-devi/portfolio/main/src/Assets/Nimarta - ML Engineer.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
