@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Nimarta </span>
             from <span className="purple"> Sindh, Pakistan.</span>
-            <br />I'm a Computer Science graduate from Sukkur IBA University.
+            <br />I'm have done my Bachelors in Computer Science from Sukkur IBA University.
             <br />
             <br />
            
