@@ -12,8 +12,9 @@ function AboutCard() {
             from <span className="purple"> Sindh, Pakistan.</span>
             <br />I'm have done my Bachelors in Computer Science from Sukkur IBA University.
             <br />
-            My expertise is in developing machine learning models. I have worked on a diverse range of projects, including computer vision, natural language processing.
-           
+            My expertise is in developing <span className="purple">machine learning</span> models. I have worked on a diverse range of projects, including <span className="purple">computer vision</span> and <span className="purple">natural language processing</span>. 
+
+            I am currently immersing myself in the fascinating world of <span className="purple">generative AI</span>, acquiring the knowledge and skills to unlock the creative potential of <span className="purple">artificial intelligence</span>.
           </p>
           {/* <ul>
             <li className="about-activity">
