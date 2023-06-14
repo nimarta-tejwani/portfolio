@@ -13,7 +13,7 @@ function About() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
+          <div
             md={7}
             style={{
               justifyContent: "center",
@@ -25,7 +25,7 @@ function About() {
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
-          </Col>
+          </div>
           {/* <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
