@@ -10,6 +10,7 @@ import fruit from "../../Assets/Projects/fruit.png";
 import emojify from "../../Assets/Projects/emojify.png";
 import helmet from "../../Assets/Projects/helmet.PNG";
 import vehicle from "../../Assets/Projects/vehicle.png";
+import scraperChat from "../../Assets/Projects/scraperChat.jpeg";
 
 function Projects() {
   return (
@@ -29,7 +30,7 @@ function Projects() {
               isBlog={false}
               title="Emojify"
               description="Realtime Facial Emotion mapping to Emoticon using DeepFace and Flask"
-              ghLink="https://github.com/nimarta-devi/Emojify"
+              ghLink="https://github.com/nimarta-tejwani/Emojify"
               demoLink=""
             />
           </Col>
@@ -40,7 +41,19 @@ function Projects() {
               isBlog={false}
               title="Vehicle Monitoring"
               description="Vehicle CLassification, Tracking and Counting using YOLOv8, DeepSort, OpenCV and Flask"
-              ghLink="https://github.com/nimarta-devi/vehicle_tracking_counting_yolov8_deepsort"
+              ghLink="https://github.com/nimarta-tejwani/vehicle_tracking_counting_yolov8_deepsort"
+              demoLink=""
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={scraperChat}
+              isBlog={false}
+              title="ScraperChat"
+              description=" A Flask-based chat app using Langchain and FatsAPI. It responds to user chats with real-time scraped data from provided URLs via Beautiful Soup." 
+              ghLink="https://github.com/nimarta-tejwani/scraper_chat"
               demoLink=""
             />
           </Col>
@@ -52,7 +65,7 @@ function Projects() {
               isBlog={false}
               title="Safety Helment Detection"
               description="Safety Helmet Detection using YOLOv8 and ASOne Library"
-              ghLink="https://github.com/nimarta-devi/Safety_Helmet_Detection_YOLOv8_AS-One.git"
+              ghLink="https://github.com/nimarta-tejwani/Safety_Helmet_Detection_YOLOv8_AS-One.git"
               demoLink=""
             />
           </Col>
@@ -63,8 +76,8 @@ function Projects() {
               isBlog={false}
               title="Flower Classification"
               description="Flower classification using CNN"
-              ghLink="https://github.com/nimarta-devi/flower_classification"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/nimarta-tejwani/flower_classification"
+              // demoLink=""
             />
           </Col>
 
@@ -74,8 +87,8 @@ function Projects() {
               isBlog={false}
               title="Fruit Calories Estimation"
               description="Fruit classification using CNN model and calorie estimation"
-              ghLink="https://github.com/nimarta-devi/Fruit_Calories_Estimation"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              ghLink="https://github.com/nimarta-tejwani/Fruit_Calories_Estimation"
+              // demoLink="https/"      <--------Please include a demo link here 
             />
           </Col>
 
@@ -85,7 +98,7 @@ function Projects() {
               isBlog={false}
               title="Aerial Image Classification"
               description="Aerial Image Classification using ResNet50 model (transfer learning)"
-              ghLink="https://github.com/nimarta-devi/aerial_image_classification"
+              ghLink="https://github.com/nimarta-tejwani/aerial_image_classification"
               demoLink=""              
             />
           </Col>
@@ -96,7 +109,7 @@ function Projects() {
               isBlog={false}
               title="Pharmacy Chatbot"
               description="Pharmacy chtbot using NLP"
-              ghLink="https://github.com/nimarta-devi/pharmacy-chatbot"
+              ghLink="https://github.com/nimarta-tejwani/pharmacy-chatbot"
               demoLink=""              
             />
           </Col>
@@ -107,7 +120,7 @@ function Projects() {
               isBlog={false}
               title="Fake News Detection"
               description="Fake News detection using Decision Tree"
-              ghLink="https://github.com/nimarta-devi/fake_news_detection"
+              ghLink="https://github.com/nimarta-tejwani/fake_news_detection"
               demoLink=""              
             />
           </Col>
