@@ -29,7 +29,7 @@ function Projects() {
               imgPath={emojify}
               isBlog={false}
               title="Emojify"
-              description="Realtime Facial Emotion mapping to Emoticon using DeepFace and Flask"
+              description="Realtime Facial Emotion mapping to Emoticon using DeepFace, OpenCV and Flask"
               ghLink="https://github.com/nimarta-tejwani/Emojify"
               demoLink=""
             />
@@ -40,7 +40,7 @@ function Projects() {
               imgPath={vehicle}
               isBlog={false}
               title="Vehicle Monitoring"
-              description="Vehicle CLassification, Tracking and Counting using YOLOv8, DeepSort, OpenCV and Flask"
+              description="A flask based Vehicle CLassification, Tracking and Counting using YOLOv8, DeepSort, OpenCV and Flask"
               ghLink="https://github.com/nimarta-tejwani/vehicle_tracking_counting_yolov8_deepsort"
               demoLink=""
             />
@@ -119,12 +119,11 @@ function Projects() {
               imgPath={fake_news}
               isBlog={false}
               title="Fake News Detection"
-              description="Fake News detection using Decision Tree"
+              description="Fake News detector using Decision Tree"
               ghLink="https://github.com/nimarta-tejwani/fake_news_detection"
               demoLink=""              
             />
           </Col>
-
 
 
         </Row>
