@@ -15,7 +15,7 @@ import {
   SiFirebase,
   SiScikitlearn,
   SiStreamlit, 
-  SiFlask,
+  SiFlask
 } from "react-icons/si";
 
 function Techstack() {
