@@ -92,9 +92,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href=""
+                href="https://medium.com/@nimarta_tejwani"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -102,6 +102,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/*
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/nimarta-devi/portfolio"
