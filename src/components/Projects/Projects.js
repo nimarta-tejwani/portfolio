@@ -11,6 +11,7 @@ import emojify from "../../Assets/Projects/emojify.png";
 import helmet from "../../Assets/Projects/helmet.PNG";
 import vehicle from "../../Assets/Projects/vehicle.png";
 import scraperChat from "../../Assets/Projects/scraperChat.jpeg";
+import semsim from "../../Assets/Projects/SemSim.png";
 
 function Projects() {
   return (
@@ -80,6 +81,18 @@ function Projects() {
               // demoLink=""
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={semsim}
+              isBlog={false}
+              title="Semantic Similarity Evaluator"
+              description="A Flask App to calculate the semantic similaity of two sentences using BERT Model"
+              ghLink="https://github.com/nimarta-tejwani/SemanticSim_Evaluator_BERT"
+              
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
